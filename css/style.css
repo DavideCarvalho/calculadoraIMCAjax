@@ -1,0 +1,39 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+}
+
+.imc{
+    width: 300px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgba(0,0,0,.3);
+    border-radius:20px;
+}
+
+.imc label{
+    display: block;
+}
+
+.imc button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
