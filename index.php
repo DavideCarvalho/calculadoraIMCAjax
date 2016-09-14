@@ -25,6 +25,7 @@ and open the template in the editor.
             </div>
         </div>
         <script src="js/jquery-min.js"></script>
+        <script src="js/mask.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

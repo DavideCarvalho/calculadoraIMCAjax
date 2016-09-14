@@ -21,9 +21,9 @@
 
 $(document).on("click", "#btn1", function (e) {
     e.preventDefault();
-    
+
     data = $('#form').serialize();
-    
+
     console.log(data);
 
     $.ajax({
@@ -43,3 +43,6 @@ $(document).on("click", "#btn1", function (e) {
     });
 });
 
+//$(document).ready(function(){
+//   $("#altura").mask("9,999"); 
+//});
